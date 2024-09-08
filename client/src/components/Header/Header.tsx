@@ -1,16 +1,15 @@
-import React from 'react';
-import './Header.scss';
+import classes from './Header.module.scss';
 import { SearchBar } from '../SearchBar/SearchBar';
 
 export const Header = () => {
 	return (
-		<header className='App-header'>
-			<div className='container-categories'>
-				<div className='category'>Main</div>
-				<div className='category'>Women</div>
-				<div className='category'>Man</div>
-				<div className='category'>Placeholder1</div>
-				<div className='category'>Placeholder1</div>
+		<header className={classes.header}>
+			<div className={classes.container}>
+				<div className={classes.category}>Main</div>
+				<div className={classes.category}>Women</div>
+				<div className={classes.category}>Man</div>
+				<div className={classes.category}>Placeholder1</div>
+				<div className={classes.category}>Placeholder1</div>
 			</div>
 			<SearchBar />
 		</header>

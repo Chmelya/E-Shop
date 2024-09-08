@@ -1,15 +1,19 @@
-.App-header {
+@import '../../styles/variables';
+
+.header {
 	width: 100%;
 	height: 70px;
-	background-color: aqua;
+	background-color: $mainColor;
 	display: inline-flex;
 	gap: 100px;
 	align-items: center;
 	padding: 5px;
+	box-sizing: border-box;
 }
 
-.container-categories {
-	color: gray;
+.container {
+	color: $darkColor;
+	font-weight: 600;
 	font-size: 1rem;
 	display: inline-flex;
 	gap: 10px;
