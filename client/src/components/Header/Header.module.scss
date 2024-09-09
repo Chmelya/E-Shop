@@ -5,20 +5,34 @@
 	height: 70px;
 	background-color: $mainColor;
 	display: inline-flex;
-	gap: 100px;
+	gap: 200px;
 	align-items: center;
-	padding: 5px;
+	padding: 5px 42px;
 	box-sizing: border-box;
 }
 
 .container {
-	color: $darkColor;
-	font-weight: 600;
-	font-size: 1rem;
 	display: inline-flex;
 	gap: 10px;
 }
 
 .category {
+	//todo delay animation
+
 	cursor: pointer;
+	opacity: 0.65;
+	color: $darkColor;
+	font-weight: 600;
+	font-size: 1rem;
+
+	&:hover {
+		opacity: 1;
+	}
+}
+
+.buttons-container {
+	gap: 20px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: space-between;
 }

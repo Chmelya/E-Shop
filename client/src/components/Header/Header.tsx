@@ -1,5 +1,7 @@
 import classes from './Header.module.scss';
 import { SearchBar } from '../SearchBar/SearchBar';
+import { FaHeart, FaShoppingCart, FaUser } from 'react-icons/fa';
+import { HeaderButton } from '../HeaderButton/HeaderButton';
 
 export const Header = () => {
 	return (
@@ -12,6 +14,11 @@ export const Header = () => {
 				<div className={classes.category}>Placeholder1</div>
 			</div>
 			<SearchBar />
+			<div className={classes['buttons-container']}>
+				<HeaderButton icon={FaHeart} />
+				<HeaderButton icon={FaUser} />
+				<HeaderButton icon={FaShoppingCart} />
+			</div>
 		</header>
 	);
 };
