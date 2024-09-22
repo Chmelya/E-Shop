@@ -1,5 +1,5 @@
 @use './reset';
-@use './variables';
+@import './variables';
 
 body {
 	margin: 0;

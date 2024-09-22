@@ -1,0 +1,39 @@
+@import '../styles/variables';
+
+.page-container {
+	//todo
+	height: 100%;
+	width: 100%;
+	padding-inline: 150px;
+}
+
+.catalog-container {
+	margin-top: 20px;
+}
+
+.filter {
+	max-width: 350px;
+	width: 40%;
+	height: 100%;
+	border-radius: 14px;
+	font-size: 24px;
+	border: solid 1px $darkColor;
+
+	div {
+		cursor: pointer;
+		padding: 5px 10px;
+		border-bottom: solid 1px $darkColor;
+	}
+
+	:last-child {
+		border: none;
+	}
+}
+
+// .filter-title {
+// 	padding: 5px 10px;
+// }
+
+// .filter-option {
+// 	padding: 5px 10px;
+// }

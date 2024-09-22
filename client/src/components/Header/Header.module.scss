@@ -5,15 +5,17 @@
 	height: 70px;
 	background-color: $mainColor;
 	display: inline-flex;
-	gap: 200px;
 	align-items: center;
 	padding: 5px 42px;
 	box-sizing: border-box;
+	justify-content: space-between;
+	box-shadow: 4px 0px 20px 0px gray;
+	margin-bottom: 50px;
 }
 
 .container {
 	display: inline-flex;
-	gap: 10px;
+	gap: 40px;
 }
 
 .category {
@@ -23,7 +25,7 @@
 	opacity: 0.65;
 	color: $darkColor;
 	font-weight: 600;
-	font-size: 1rem;
+	font-size: 18px;
 
 	&:hover {
 		opacity: 1;
@@ -35,4 +37,23 @@
 	display: inline-flex;
 	align-items: center;
 	justify-content: space-between;
+}
+
+.logo {
+	height: 28px;
+	width: 28px;
+	color: $darkColor;
+}
+
+.title {
+	font-size: 28px;
+	font-weight: 600;
+	color: $darkColor;
+}
+
+.logo-container {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	align-items: center;
 }
