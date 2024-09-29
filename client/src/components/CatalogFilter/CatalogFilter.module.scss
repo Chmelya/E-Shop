@@ -1,0 +1,20 @@
+@import '../../styles/index.scss';
+
+.filter {
+	float: left;
+	width: 20%;
+	height: 100%;
+	border-radius: 14px;
+	font-size: 24px;
+	border: solid 1px $darkColor;
+
+	div {
+		cursor: pointer;
+		padding: 5px 10px;
+		border-bottom: solid 1px $darkColor;
+	}
+
+	:last-child {
+		border: none;
+	}
+}
